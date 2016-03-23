@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DE8302B1CA2DEB900165054 /* GTMOAuth2Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE830291CA2DEB900165054 /* GTMOAuth2Keychain.h */; };
 		4DE8302C1CA2DEB900165054 /* GTMOAuth2Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8302A1CA2DEB900165054 /* GTMOAuth2Keychain.m */; };
 		4DE8302F1CA2E0E700165054 /* GTLDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3DE994119CCE49006926D1 /* GTLDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE830301CA2E0E700165054 /* GTLFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDE223213848173005AEFAA /* GTLFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,7 +17,6 @@
 		4DE830351CA2E0E700165054 /* GTLBatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDE224B1384818E005AEFAA /* GTLBatchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE830361CA2E0E700165054 /* GTLDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDE224D1384818E005AEFAA /* GTLDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE830371CA2E0E700165054 /* GTLErrorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDE224F1384818E005AEFAA /* GTLErrorObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DE830381CA2E0E700165054 /* GTMOAuth2Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE830291CA2DEB900165054 /* GTMOAuth2Keychain.h */; };
 		4DE830391CA2E0E700165054 /* GTLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDE22511384818E005AEFAA /* GTLObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE8303A1CA2E0E700165054 /* GTLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDE22531384818E005AEFAA /* GTLQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE8303B1CA2E0E700165054 /* GTLRuntimeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDE22551384818E005AEFAA /* GTLRuntimeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,7 +24,6 @@
 		4DE8303D1CA2E0E700165054 /* GTLUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0C4FBA13CFA7E5007E5E92 /* GTLUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE8303F1CA2E0E700165054 /* GTLBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F934E651512712100C4EA34 /* GTLBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE830401CA2E0E700165054 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEE179E1C03DB5900A38758 /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DE830411CA2E0E700165054 /* GTMOAuth2ViewControllerTV.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE830251CA2DE5000165054 /* GTMOAuth2ViewControllerTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE830421CA2E0E700165054 /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEE17A21C03DB5900A38758 /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE830431CA2E0E700165054 /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEE17A41C03DB5900A38758 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE830441CA2E0E700165054 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEE17A01C03DB5900A38758 /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,7 +43,6 @@
 		4DE830551CA2E0E700165054 /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE224C1384818E005AEFAA /* GTLBatchResult.m */; };
 		4DE830561CA2E0E700165054 /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE224E1384818E005AEFAA /* GTLDateTime.m */; };
 		4DE830571CA2E0E700165054 /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22501384818E005AEFAA /* GTLErrorObject.m */; };
-		4DE830581CA2E0E700165054 /* GTMOAuth2ViewControllerTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830261CA2DE5000165054 /* GTMOAuth2ViewControllerTV.m */; };
 		4DE830591CA2E0E700165054 /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22521384818E005AEFAA /* GTLObject.m */; };
 		4DE8305A1CA2E0E700165054 /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22541384818E005AEFAA /* GTLQuery.m */; };
 		4DE8305B1CA2E0E700165054 /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22561384818E005AEFAA /* GTLRuntimeCommon.m */; };
@@ -65,6 +61,10 @@
 		4DE830691CA2E0E700165054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4469DC11C40283B00BCFAA1 /* Foundation.framework */; };
 		4DE8306A1CA2E0E700165054 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4469DBF1C40275300BCFAA1 /* SystemConfiguration.framework */; };
 		4DE8306B1CA2E0E700165054 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4469DBD1C40274400BCFAA1 /* Security.framework */; };
+		4DE8307F1CA2EA8300165054 /* GTMOAuth2Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8307D1CA2EA8300165054 /* GTMOAuth2Keychain.h */; };
+		4DE830801CA2EA8300165054 /* GTMOAuth2Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8307D1CA2EA8300165054 /* GTMOAuth2Keychain.h */; };
+		4DE830871CA2EB5200165054 /* GTMOAuth2ViewControllerTV.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE830841CA2EB5200165054 /* GTMOAuth2ViewControllerTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE830891CA2EB5200165054 /* GTMOAuth2ViewControllerTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830851CA2EB5200165054 /* GTMOAuth2ViewControllerTV.m */; };
 		4F0C4FBC13CFA7E5007E5E92 /* GTLUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0C4FBA13CFA7E5007E5E92 /* GTLUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0C4FBD13CFA7E5007E5E92 /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLUploadParameters.m */; };
 		4F0C4FBF13CFA7E5007E5E92 /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLUploadParameters.m */; };
@@ -343,12 +343,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4DE830251CA2DE5000165054 /* GTMOAuth2ViewControllerTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTV.h; sourceTree = "<group>"; };
-		4DE830261CA2DE5000165054 /* GTMOAuth2ViewControllerTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTV.m; sourceTree = "<group>"; };
-		4DE830291CA2DEB900165054 /* GTMOAuth2Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2Keychain.h; path = Touch/GTMOAuth2Keychain.h; sourceTree = "<group>"; };
 		4DE8302A1CA2DEB900165054 /* GTMOAuth2Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2Keychain.m; path = Touch/GTMOAuth2Keychain.m; sourceTree = "<group>"; };
 		4DE8306F1CA2E0E700165054 /* GTL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE830701CA2E0E700165054 /* GTLtvOSCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GTLtvOSCore-Info.plist"; path = "/Users/mark/Coding/fireseed/Screensaver/ThirdParty/google-api-objectivec-client/Source/GTLtvOSCore-Info.plist"; sourceTree = "<absolute>"; };
+		4DE8307D1CA2EA8300165054 /* GTMOAuth2Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2Keychain.h; path = Touch/GTMOAuth2Keychain.h; sourceTree = "<group>"; };
+		4DE830841CA2EB5200165054 /* GTMOAuth2ViewControllerTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTV.h; sourceTree = "<group>"; };
+		4DE830851CA2EB5200165054 /* GTMOAuth2ViewControllerTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTV.m; sourceTree = "<group>"; };
 		4F0C4FBA13CFA7E5007E5E92 /* GTLUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLUploadParameters.h; path = Objects/GTLUploadParameters.h; sourceTree = "<group>"; };
 		4F0C4FBB13CFA7E5007E5E92 /* GTLUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLUploadParameters.m; path = Objects/GTLUploadParameters.m; sourceTree = "<group>"; };
 		4F12027D11A4CA2F00BEB470 /* GTLUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTLUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -614,13 +614,13 @@
 			name = "GTL Source";
 			sourceTree = "<group>";
 		};
-		4DE830241CA2DE5000165054 /* tvos */ = {
+		4DE830831CA2EB5200165054 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				4DE830251CA2DE5000165054 /* GTMOAuth2ViewControllerTV.h */,
-				4DE830261CA2DE5000165054 /* GTMOAuth2ViewControllerTV.m */,
+				4DE830841CA2EB5200165054 /* GTMOAuth2ViewControllerTV.h */,
+				4DE830851CA2EB5200165054 /* GTMOAuth2ViewControllerTV.m */,
 			);
-			path = tvos;
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 		4F244248121E0A8D00FEE1DA /* Touch */ = {
@@ -629,8 +629,8 @@
 				4F697FBB131C1A6800A5AB6A /* GTMOAuth2ViewControllerTouch.h */,
 				4F697FBC131C1A6800A5AB6A /* GTMOAuth2ViewControllerTouch.m */,
 				4F697FBD131C1A6800A5AB6A /* GTMOAuth2ViewTouch.xib */,
-				4DE830291CA2DEB900165054 /* GTMOAuth2Keychain.h */,
 				4DE8302A1CA2DEB900165054 /* GTMOAuth2Keychain.m */,
+				4DE8307D1CA2EA8300165054 /* GTMOAuth2Keychain.h */,
 			);
 			name = Touch;
 			sourceTree = "<group>";
@@ -801,7 +801,7 @@
 				4F697FA6131C1A4100A5AB6A /* GTMOAuth2SignIn.m */,
 				4F244249121E0A9500FEE1DA /* Mac */,
 				4F244248121E0A8D00FEE1DA /* Touch */,
-				4DE830241CA2DE5000165054 /* tvos */,
+				4DE830831CA2EB5200165054 /* tvOS */,
 			);
 			name = OAuth2;
 			path = "gtm-oauth2/Source";
@@ -859,6 +859,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE830801CA2EA8300165054 /* GTMOAuth2Keychain.h in Headers */,
 				4DE8302F1CA2E0E700165054 /* GTLDefines.h in Headers */,
 				4DE830301CA2E0E700165054 /* GTLFramework.h in Headers */,
 				4DE830311CA2E0E700165054 /* GTLJSONParser.h in Headers */,
@@ -868,7 +869,6 @@
 				4DE830351CA2E0E700165054 /* GTLBatchResult.h in Headers */,
 				4DE830361CA2E0E700165054 /* GTLDateTime.h in Headers */,
 				4DE830371CA2E0E700165054 /* GTLErrorObject.h in Headers */,
-				4DE830381CA2E0E700165054 /* GTMOAuth2Keychain.h in Headers */,
 				4DE830391CA2E0E700165054 /* GTLObject.h in Headers */,
 				4DE8303A1CA2E0E700165054 /* GTLQuery.h in Headers */,
 				4DE8303B1CA2E0E700165054 /* GTLRuntimeCommon.h in Headers */,
@@ -876,7 +876,7 @@
 				4DE8303D1CA2E0E700165054 /* GTLUploadParameters.h in Headers */,
 				4DE8303F1CA2E0E700165054 /* GTLBase64.h in Headers */,
 				4DE830401CA2E0E700165054 /* GTMSessionFetcher.h in Headers */,
-				4DE830411CA2E0E700165054 /* GTMOAuth2ViewControllerTV.h in Headers */,
+				4DE830871CA2EB5200165054 /* GTMOAuth2ViewControllerTV.h in Headers */,
 				4DE830421CA2E0E700165054 /* GTMSessionFetcherService.h in Headers */,
 				4DE830431CA2E0E700165054 /* GTMSessionUploadFetcher.h in Headers */,
 				4DE830441CA2E0E700165054 /* GTMSessionFetcherLogging.h in Headers */,
@@ -924,6 +924,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE8307F1CA2EA8300165054 /* GTMOAuth2Keychain.h in Headers */,
 				F4469D7B1C40229D00BCFAA1 /* GTLDefines.h in Headers */,
 				F4469D7C1C40229D00BCFAA1 /* GTLFramework.h in Headers */,
 				F4469D7D1C40229D00BCFAA1 /* GTLJSONParser.h in Headers */,
@@ -933,7 +934,6 @@
 				F4469D811C40229D00BCFAA1 /* GTLBatchResult.h in Headers */,
 				F4469D821C40229D00BCFAA1 /* GTLDateTime.h in Headers */,
 				F4469D831C40229D00BCFAA1 /* GTLErrorObject.h in Headers */,
-				4DE8302B1CA2DEB900165054 /* GTMOAuth2Keychain.h in Headers */,
 				F4469D841C40229D00BCFAA1 /* GTLObject.h in Headers */,
 				F4469D851C40229D00BCFAA1 /* GTLQuery.h in Headers */,
 				F4469D861C40229D00BCFAA1 /* GTLRuntimeCommon.h in Headers */,
@@ -1200,10 +1200,10 @@
 				4DE830551CA2E0E700165054 /* GTLBatchResult.m in Sources */,
 				4DE830561CA2E0E700165054 /* GTLDateTime.m in Sources */,
 				4DE830571CA2E0E700165054 /* GTLErrorObject.m in Sources */,
-				4DE830581CA2E0E700165054 /* GTMOAuth2ViewControllerTV.m in Sources */,
 				4DE830591CA2E0E700165054 /* GTLObject.m in Sources */,
 				4DE8305A1CA2E0E700165054 /* GTLQuery.m in Sources */,
 				4DE8305B1CA2E0E700165054 /* GTLRuntimeCommon.m in Sources */,
+				4DE830891CA2EB5200165054 /* GTMOAuth2ViewControllerTV.m in Sources */,
 				4DE8305C1CA2E0E700165054 /* GTLService.m in Sources */,
 				4DE8305D1CA2E0E700165054 /* GTLUploadParameters.m in Sources */,
 				4DE8305E1CA2E0E700165054 /* GTLBase64.m in Sources */,
