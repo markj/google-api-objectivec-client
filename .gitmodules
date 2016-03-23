@@ -1,6 +1,6 @@
 [submodule "Deps/gtm-oauth2"]
 	path = Deps/gtm-oauth2
-	url = https://github.com/google/gtm-oauth2.git
+url=https://github.com/markj/gtm-oauth2.git
 	branch = master
 [submodule "Deps/gtm-session-fetcher"]
 	path = Deps/gtm-session-fetcher
